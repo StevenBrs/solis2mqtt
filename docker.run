@@ -1,0 +1,4 @@
+docker build -t solis2mqtt .
+docker kill solis2mqtt
+docker rm solis2mqtt
+docker run -d -ti --name solis2mqtt solis2mqtt
